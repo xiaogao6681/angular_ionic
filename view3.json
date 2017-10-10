@@ -1,0 +1,21 @@
+{
+  "totalPages": 3,
+  "currentPage": 1,
+  "view3": [
+    {"name":"PandaCc","imgsrc":"images/38.jpg","music":"music/01.mp3","ding":"99","ping":"56","zhuan":"36","time":"5分钟前",
+      "img1":"images/46.gif","img2":"images/47.gif","img3":"images/48.gif",
+      "txt":"国外一网友，新饲养了一只刺猬，把它带回家介绍给家里的猫之后，以为它们第一次见面会各自害怕，没想到，猫咪一见到刺猬后..."},
+    {"name":"Blue","imgsrc":"images/39.jpg","music":"music/02.mp3","ding":"98","ping":"45","zhuan":"36","time":"6分钟前",
+      "img1":"images/49.gif","img2":"images/50.gif","img3":"images/51.gif",
+      "txt":"玛雅，有这样的女朋友，何愁成不了大器～"},
+    {"name":"Maths","imgsrc":"images/41.jpg","music":"music/03.mp3","ding":"93","ping":"78","zhuan":"36","time":"7分钟前",
+      "img1":"images/52.jpg","img2":"images/53.jpg","img3":"images/54.jpg",
+      "txt":"刚出炉的仓鼠宝宝，这怎么吃的下去啊，萌坏了~~！！！"},
+    {"name":"Remon","imgsrc":"images/38.jpg","music":"music/04.mp3","ding":"85","ping":"45","zhuan":"36","time":"8分钟前",
+      "img1":"images/55.gif","img2":"images/56.gif","img3":"images/57.gif",
+      "txt":"小伙伴们，要不要一起去潇洒地兜兜风？"},
+    {"name":"Alen","imgsrc":"images/39.jpg","music":"music/05.mp3","ding":"79","ping":"78","zhuan":"36","time":"9分钟前",
+      "img1":"images/58.gif","img2":"images/59.gif","img3":"images/60.gif",
+      "txt":"让人看完会觉得莫名爽到飞起的食物处理过程，每一个镜头看他个10遍不过分啊！"}
+  ]
+}

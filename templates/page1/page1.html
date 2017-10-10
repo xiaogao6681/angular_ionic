@@ -1,0 +1,17 @@
+<ion-header-bar class="bar-balanced " id="page1">
+    <button class="button button-icon ion-ios-arrow-back" ui-sref="tabs.view1"></button>
+    <h3 class="title">我的音乐</h3>
+    <button class="button button-icon icon ion-share"></button>
+</ion-header-bar>
+<ion-view>
+    <div class="page1" >
+        <img src="images/40.jpg">
+        <div class="btn">
+            <button class="button button-outline button-balanced" ng-click="btn(zz)">
+                <i class="icon ion-ios-play-outline" ng-show="play"></i>
+                <i class="icon ion-ios-pause-outline" ng-hide="play"></i>
+            </button>
+        </div>
+        <p class="muisc" ng-><audio src="music/01.mp3" controls id="music"></audio></p>
+    </div>
+</ion-view>

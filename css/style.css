@@ -1,0 +1,93 @@
+*{font-size: 12px;font-family: "arial";}
+.box img{width: 100%;font-size: 0 }
+#tou .ion-mic-a{font-size:24px;margin-right:10px;}
+#tou .ion-stats-bars{font-size: 30px;margin-left: 0;}
+#tou .ion-search{font-size: 20px;}
+#tou .ion-stats-bars{font-size: 24px;margin-left: 10px;}
+#tou i{font-size: 16px;}
+#tabs .tab-item .icon{font-size: 24px;line-height: 32px;}
+
+#home{text-align: center}
+#home .col{border-bottom: 1px solid #ffffff;}
+#home .ac{color: #43bd36;border-bottom: 1px solid #43bd36}
+.home_p1{ margin-left: 10px;margin-bottom: 0;float: left;width: 100%;font-size: 14px;}
+.home_p1 span{font-size: 12px;color: #6d6d6d;}
+.home_p1 span{float: right;margin-right: 20px;}
+.home_p1 i{color: #43bd36;margin-right: 5px;font-size: 15px}
+#home_1{text-align: center;font-size: 13px;}
+#home_1 i{font-size: 25px;color:#43bd36}
+#home_1 span{font-size: 11px;color: #000;}
+#home_2 img{width: 100%;}
+#home_3 img{width: 100%}
+.home_4 img{width: 100%;}
+.home_4 span{font-size: 12px;color: #6d6d6d}
+#home_p2{color: #6d6d6d;text-align: center;font-size: 8px;}
+#home_but{width: 100%;text-align: center;}
+#home_but button{line-height:30px;min-height: inherit;font-size: 12px;min-width:inherit;}
+#home_2 p{white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+#home_2 .col{width: 50%}
+#home_3 p{white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.home_4 .col{width: 30%;}
+.home_4 .col p,span{white-space:nowrap; overflow:hidden; text-overflow:ellipsis;display: block;margin: 0;}
+#home_1,#home_2,#home_3,.home_4 p{color: #333333;}
+#home_1,#home_2,#home_3,.home_4 span{color: #c6c6c6;}
+
+#view h3{font-size: 17px;}
+#view .button-clear{font-size: 14px;}
+#view .button-icon:before{font-size: 24px;}
+.view_2{margin-bottom: 0;}
+.view_2 .ion-ios-checkmark-outline{margin-right: 0px;}
+#icon .item i{font-size: 20px;color: #43bd36;margin-right: 15px;}
+#icon .item span i{color:#8f8e94;font-size: 12px;margin-left: 5px; }
+.view_2 .item i{color: #43bd36;margin-right: 5px;}
+.view_2 .item{font-size: 17px;}
+.view_2 h3{font-size: 17px;}
+.view2_p{font-size: 12px;color: #888888;background: #eff0f1;margin: 0;line-height: 20px;}
+.view2_p i{margin-left: 10px;margin-right: 5px;}
+.view_2 .right{text-align: right;float: right}
+.view_2 .right span{color: #a0a0a0;font-size: 12px;}
+.card p{white-space:pre-line;margin-bottom: 0;}
+.card a{margin-right: 10px;}
+.card .img{width: 33%}
+ion-infinite-scroll{height: 0;}
+.card .item button{line-height:normal;min-height: inherit;font-size: 12px;min-width:inherit;margin-right: 10px;}
+.card .item button{text-align: right;font-size: 12px;}
+.card .item .but{float: right}
+.card .item .tab a{margin-left: 20px;color: #999999;font-size: 12px;}
+.card .item .tab{text-align: right}
+.card .item .tab i{font-size: 17px;margin-right: 5px;}
+.card p audio{width: 100%;}
+.card span{font-size: 12px;color: #8f8e94;}
+
+.view4 h3{font-size: 17px;color: #333333;}
+.view4 .item{min-height: inherit;border-style: none;}
+.view4 button{line-height:normal;min-height: inherit;font-size: 12px;min-width:inherit;color: #999;}
+.view4 .but{text-align: right}
+.view4 .but button{float: right;font-size: 14px;}
+.view4 .but i{font-size: 14px;}
+.view4 .row{border-top:1px solid #e5e5e5;margin-top: 1px;font-size: 12px;}
+.view4 .row .col{text-align: center;border-right:1px solid #e5e5e5; color: #999;}
+.view4 .row .ac{border-right: none;}
+.view4 .row .ac span{font-weight: normal;color: #999}
+.view4 .row span{color: #333333;font-weight: 400;}
+
+.view4_1 i{padding-right: 16px;font-size: 20px;color: #8f8e94;min-height: inherit;}
+.view4_1 span{text-align: right;float: right;font-size: 12px;}
+.view4_1 span i{font-size: 12px;margin-left: 5px;}
+.view4_2 .item{text-align: center;color: #43bd36;}
+
+#tour img{width: 100%;height: 100%}
+#tour .but{text-align: center;}
+#tour button{position:absolute;top: 80%;left: 50%;transform: translate(-50%,-50%);}
+
+#page1{background: rgba(225,225,225,0)}
+.page1 img{width: 100%;}
+.muisc {display: none;}
+.page1 button{position:absolute;top: 93%;left: 50%;transform: translate(-50%,-50%);}
+.page1 button i{color: #ffffff;}
+
+#page2 .ion-ios-play-outline{font-size: 16px;margin-right: 10px;}
+#page2 .btn{text-align: right;}
+#page2 .btn i{float: right;font-size: 14px;}
+#page2 p{font-size: 12px;}
+#page2 p i{color: #43bd36;margin-right: 5px;}

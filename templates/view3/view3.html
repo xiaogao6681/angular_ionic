@@ -1,0 +1,33 @@
+<ion-view>
+    <ion-header-bar class="bar-balanced " id="view">
+        <button class="button button-icon ion-ios-personadd-outline"></button>
+        <h3 class="title">朋友</h3>
+        <button class="button button-icon ion-stats-bars" ui-sref="page1"></button>
+    </ion-header-bar>
+    <ion-content ng-controller="view3Ctrl">
+        <div class="card" ng-repeat="pro in view3">
+            <div class="item item-avatar">
+                <img ng-src="{{pro.imgsrc}}"/>
+                <h3><a>{{pro.name}}</a>分享单曲
+                    <div class="but">
+                        <button class="button button-outline button-balanced ">关注</button>
+                        <i class="icon ion-ios-arrow-down"></i>
+                    </div>
+                </h3>
+                <span>{{pro.time}}</span>
+                <p>{{pro.txt}}</p>
+                <img class="img" ng-src="{{pro.img1}}">
+                <img class="img" ng-src="{{pro.img2}}">
+                <img class="img" ng-src="{{pro.img3}}">
+                <p><audio ng-src="{{pro.music}}" controls></audio></p>
+
+                <div class="tab">
+                    <a><i class=" icon ion-thumbsup"></i>{{pro.ding}}</a>
+                    <a><i class=" icon ion-ios-compose-outline"></i>{{pro.ping}}</a>
+                    <a><i class=" icon ion-share"></i>{{pro.zhuan}}</a>
+                </div>
+            </div>
+        </div>
+        <ion-infinite-scroll on-infinite="getRestaurants()" ng-if="page<total" immediate-check="false"></ion-infinite-scroll>
+    </ion-content>
+</ion-view>

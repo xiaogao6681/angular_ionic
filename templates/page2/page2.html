@@ -1,0 +1,20 @@
+<ion-header-bar class="bar-balanced">
+    <button class="button button-icon ion-ios-arrow-back" ui-sref="tabs.view2"></button>
+    <h3 class="title">歌单</h3>
+    <button class="button button-icon ion-stats-bars" ui-sref="page1"></button>
+</ion-header-bar>
+<ion-view view-title="我的音乐" ng-controller="page2Ctrl">
+    <ion-content id="page2">
+        <div class="list">
+            <div class="item">
+                <div class="btn"><i class="icon ion-android-menu"></i></div>
+                <i class="icon ion-ios-play-outline"></i>播放全部
+            </div>
+            <div class="item" ng-repeat="pro in page2" ui-sref="page1">
+                  <div class="btn"><i class="icon ion-ios-more"></i></div>
+                <h3>{{pro.title}}</h3>
+                <p><i class="icon ion-ios-checkmark-outline"></i>{{pro.desc}}</p>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
